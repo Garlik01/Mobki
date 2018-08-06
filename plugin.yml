@@ -1,0 +1,6 @@
+name: GPlugin
+main: pl.Garlik.Mobki.Mobki
+version: 1.0
+author: Garlik
+commands:
+  mobki:
