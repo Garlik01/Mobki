@@ -41,23 +41,14 @@ class MobConfig {
 			mobDataConfig.set("Cechy.region", "testregion");
 			mobDataConfig.set("Cechy.czasSpawnu", 1);
 			mobDataConfig.set("Cechy.ilosc", 3);
-			Material helmet = Material.LEATHER_HELMET;
-			Material chestplate = Material.LEATHER_CHESTPLATE;
-			Material leggings = Material.LEATHER_LEGGINGS;
-			Material boots = Material.LEATHER_BOOTS;
-			Material mainHand = Material.STICK;
-			Material offHand = Material.AIR;
-			mobDataConfig.set("Equipment.helmet", helmet.toString());
-			mobDataConfig.set("Equipment.chestplate", chestplate.toString());
-			mobDataConfig.set("Equipment.leggings", leggings.toString());
-			mobDataConfig.set("Equipment.boots", boots.toString());
-			mobDataConfig.set("Equipment.mainHand", mainHand.toString());
-			mobDataConfig.set("Equipment.offHand", offHand.toString());
+			mobDataConfig.set("Equipment.helmet", Material.LEATHER_HELMET.toString());
+			mobDataConfig.set("Equipment.chestplate", Material.LEATHER_CHESTPLATE.toString());
+			mobDataConfig.set("Equipment.leggings", Material.LEATHER_LEGGINGS.toString());
+			mobDataConfig.set("Equipment.boots", Material.LEATHER_BOOTS.toString());
+			mobDataConfig.set("Equipment.mainHand", Material.STICK.toString());
+			mobDataConfig.set("Equipment.offHand", Material.AIR.toString());
 
-			
-			mobDataConfig.set("Drop.0", "#11, 50.0, 1");
-			mobDataConfig.set("Drop.1", "#12, 1.0, 3");
-			
+
 			
 			
 			
