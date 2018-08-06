@@ -40,7 +40,7 @@ class MobConfig {
 			mobDataConfig.set("Cechy.Serca", 10);
 			mobDataConfig.set("Cechy.region", "testregion");
 			mobDataConfig.set("Cechy.czasSpawnu", 1);
-			mobDataConfig.set("Cechy.ilosc", 3);
+			mobDataConfig.set("Cechy.ilosc" , 3);
 			mobDataConfig.set("Equipment.helmet", Material.LEATHER_HELMET.toString());
 			mobDataConfig.set("Equipment.chestplate", Material.LEATHER_CHESTPLATE.toString());
 			mobDataConfig.set("Equipment.leggings", Material.LEATHER_LEGGINGS.toString());
